@@ -1,0 +1,859 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#carouselExampleControls .carousel-caption{
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 20%;
+    padding-bottom: 0;
+}
+
+.head{
+    font-size: 70px;
+    text-transform: capitalize;
+}
+
+.main{
+    padding: 0px 20%;
+}
+
+.main2{
+    text-transform: capitalize;
+    color: rgb(78, 247, 0)!important;
+    font-weight: 700;
+
+}
+.main3{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: rgb(43, 136, 0);
+    margin-right: 20px;
+}
+.main3:hover{
+    color: rgb(43, 136, 0);
+}
+
+/* navbar style here  */
+.image-Padd{
+    padding-top: 10px!important;
+}
+.mainn1{
+    padding: 0!important;
+}
+.text-lihero{
+    padding: 0!important;
+}
+.new{
+    text-transform: uppercase;
+    color: black!important;
+    font-size: 18px!important;
+    transition: 1s all ease-in-out!important;
+}
+.new:hover{
+    color: rgb(60, 255, 0)!important;
+}
+
+.new1{
+    padding: 20px 2.5%;
+    clear: both;
+    position: relative;
+}
+.new1::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 5px;
+    background-color: rgb(60, 255, 0);
+    left: 0;
+    bottom:10px;
+    transition: 1s all ease-in-out;
+
+}
+
+.new1:hover::after{
+    width: 100%;
+}
+.new1 i{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.new2{
+    background-color: rgb(22, 41, 41);
+    padding: 15px 0px ;
+}
+.new2 i{
+    color: rgb(7, 136, 71);
+    font-size: 30px;
+    padding: 0px 25px;
+}
+.new3{
+    background-color: rgb(7, 136, 71);
+    padding: 15px 0px;
+}
+.new3 i{
+    color: rgb(22, 41, 41);
+    font-size: 30px;
+    padding: 0px 25px;
+}
+/* navbar style here  */
+
+/* banner section style here  */
+.banner{
+    background-color: rgb(243, 243, 243);
+}
+.main-text{
+    position: relative;
+}
+.main-text::after{
+    content: '';
+    position: absolute;
+    width: 10%;
+    height: 5px;
+    background-color: green;
+    bottom: 0%;
+    left: 0;
+}
+.text-upper{
+    text-transform: uppercase;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+}
+.text-h2{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 45px;
+    padding-bottom: 10px;
+}
+
+.top-bottom{
+    padding-top: 60px;
+}
+.icon{
+    font-size:40px ;
+    transition: 0.5s all ease-in-out;
+}
+.icon:hover{
+    color: green;
+}
+
+.text-font{
+    font-size:20px
+}
+.image-hight{
+    padding: 40px 0px 70px 0px;
+}
+
+/* banner section style here  */
+
+
+/* about section style here  */
+.about-all{
+    background-image: url(../image/photo-1553095066-5014bc7b7f2d.jpg);
+    background-position: center right;
+}
+.text1{
+    position: relative;
+    margin-bottom: 50px;
+}
+.text1::after{
+    content: '';
+    position: absolute;
+    width: 10%;
+    height: 5px;
+    left: 0;
+    bottom: o;
+    background-color: rgb(6, 196, 6);
+}
+.text1 h2{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 45px;
+}
+.text1 h4{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: 'Cormorant Garamond', serif;
+}
+.col-8 p{
+    color: #ffffff;
+}
+.image-padiing{
+    padding: 30px 0px;
+}
+
+.col-3 h2{
+    font-size: 40px;
+    color: rgb(5, 185, 140);
+    font-weight: 500;
+}
+.col-3 h4{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 30px;
+}
+.text-padding{
+    padding-top: 60px;
+}
+/* about section style here  */
+
+/* cycle section style here  */
+.text-cycle{
+    position: relative;
+}
+.text-cycle::after{
+    content: '';
+    position: absolute;
+    width: 5%;
+    height: 3px;
+    bottom: -10px;
+    left: 0;
+    background-color: rgb(32, 32, 32);
+}
+.text-cycle h2{
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.text-cycle h4{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.cycle p{
+    font-size: 15px;
+    font-weight: 400;
+    padding: 30px 25% 60px 0px;
+}
+
+.col-3 h2{
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: rgb(32, 156, 109);
+    font-weight: 400;
+}
+.col-9 {
+    padding-top: 25px;
+}
+.col-9 h4{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.col-9 p{
+    padding: 10px 10px 0px 0px;
+}
+/* cycle section style here  */
+
+/* work section style here  */
+.work{
+    background-color: #e6e6e6;
+}
+
+.work-head{
+    padding: 90px 0px 20px 0px;
+}
+.work-h2{
+    position: relative;
+}
+.work-h2::after{
+    content: '';
+    position: absolute;
+    width: 15%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(0, 167, 83);
+}
+
+.work-h2 h4{
+    text-transform: uppercase;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+}
+.work-h2 h2{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.more{
+    padding-top: 20px;
+}
+.more a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 15px 20px;
+    background-color: rgb(11, 18, 20);
+    color: rgb(4, 167, 112);
+}
+.more a:hover{
+    color: rgb(4, 167, 112)!important;
+}
+
+.uppercase{
+    text-transform: uppercase;
+    color: rgb(7, 7, 7);
+    padding: 10px 5px ;
+    border-radius: 7px;
+    transition: 1s all ease-in-out!important;
+}
+.uppercase:hover{
+    background-color: rgb(8, 14, 12)!important;
+    color: rgb(8, 189, 98)!important;
+}
+.list{
+    padding: 30px 0px 40px 0px;
+}
+
+.head-padding{
+    padding: 0px!important;
+}
+/* work section style here  */
+
+/* start client section style here */
+.client{
+    padding: 90px 0px ;
+}
+.client-header{
+    position: relative;
+}
+.client-header::after{
+    content: '';
+    position: absolute;
+    width: 7%;
+    height: 4px;
+    bottom: -7px;
+    left: 0;
+    background-color: rgb(21, 48, 39);
+}
+.client-header h2{
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 500;
+    color: rgb(21, 32, 29)!important;
+}
+.client-header h4{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(21, 34, 31)!important;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.text-pp{
+    font-size: 16px;
+    color: black;
+    padding: 40px 20% 40px 0px ;
+}
+
+.picture{
+    padding-top: 50px;
+}
+.text-main-t h3{
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: right;
+    padding-top: 10px;
+    font-weight: 400;
+}
+.text-main-t h5{
+    text-transform: capitalize;
+    font-size: 16px;
+    text-align: right;
+    font-weight: 400;
+}
+/* end client section style here */
+
+
+/* service secton style here  */
+.top-bottom-padding{
+    padding: 70px 0px;
+}
+.service-head{
+    padding: 20px 60px 50px 90px;
+}
+.service-head1{
+    position: relative;
+}
+.service-head1::after{
+    content: '';
+    position: absolute;
+    width: 10%;
+    height: 4px;
+    bottom: -10;
+    left: 0;
+    background-color: rgb(3, 201, 69);
+}
+.service-head h4{
+    text-transform: uppercase;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 17px;
+    font-weight: 200;
+}
+.service-head h2{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 400;
+}
+.icon-width{
+    font-size: 50px;
+}
+.bg-imge1{
+    background-color: rgb(226, 226, 214);
+    padding: 70px 0px!important;
+}
+.bg-imge{
+    padding: 0!important;
+}
+.text-h2p h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 0!important;
+}
+
+.ankor{
+    padding: 40px 90px;
+}
+.ankor a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(0, 173, 136);
+    padding: 12px 25px 15px 25px;background-color: rgb(2, 5, 4);
+}
+.ankor a:hover{
+    color: rgb(0, 173, 136);
+}
+/* service secton style here  */
+
+/* skill section here  */
+.skill-head{
+    position: relative;
+}
+
+.skill-head::after{
+    content: '';
+    position: absolute;
+    width: 7%;
+    height: 4px;
+    bottom: -10px;
+    left: 0;
+    background-color: rgb(0, 49, 26);
+}
+.skill-head h4{
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 300;
+    font-family: 'Cormorant Garamond', serif;
+}
+.skill-head h2{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+
+.skill p{
+    font-size: 14px;
+    padding: 50px 20% 40px 0px;
+}
+.bg-col{
+    background-color: rgb(0, 150, 80)!important;
+    height: 100x!important;
+}
+.text-font1{
+    font-size: 20px;
+    font-weight: 400;
+}
+.text-font h3{
+    text-transform: uppercase;
+    font-size: 25px!important;
+    font-family: 'Cormorant Garamond', serif;
+}
+/* skill section here  */
+
+
+/* back image section here */
+.back-image{
+    background-image: url('../image/milky-way-2695569_960_720.jpg');
+}
+.h3h h3{
+    color: #ffffff;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.button1{
+    text-align: right;
+    padding-top: 40px;
+
+}
+.button1 a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20;
+    color: rgb(20, 29, 24);
+    padding: 15px 25px;
+    background-color: rgb(0, 141, 63);
+}
+.button1 a:hover{
+    color: rgb(20, 29, 24);
+}
+/* back image section here */
+
+/* team section here */
+.team{
+    background-color: rgb(230, 230, 230);
+    padding: 90px;
+}
+.min-head h4{
+    text-transform: uppercase;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+.min-head h2{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 400;
+}
+.min-head {
+    position: relative;
+}
+.min-head::after{
+    content: '';
+    position: absolute;
+    width: 4%;
+    height: 4px;
+    bottom: -10px;
+    left: 0;
+    background-color: rgb(19, 54, 29);
+}
+.imagep{
+    margin-top: 90px!important;
+}
+/* team section here */
+
+/* people section here */
+.people{
+    background-color: #f0f0f0;
+    padding: 90px;
+}
+.hpd h2{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 400;
+    padding: 10px 0px;
+}
+.hpd p{
+    padding-right: 25px;
+    font-size: 16px;
+}
+.buttonb{
+    margin-top: 50px;
+}
+.buttonb a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: 200;
+    padding: 10px 20px;
+    color: rgb(9, 124, 57);
+    background-color: rgb(21, 34, 36);
+}
+.buttonb a:hover{
+    color: rgb(9, 124, 57);
+}
+/* people section here */
+
+/* topic section here */
+.topics{
+    padding: 70px 90px;
+    background-color: #dbd8d8;
+}
+.latest h4{
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: 100;
+    color: rgb(15, 15, 15);
+}
+.latest h2{
+    text-transform: uppercase;
+    font-size: 40px;
+    color: rgb(15, 15, 15);
+}
+.latest{
+    position: relative;
+}
+.latest::after{
+    content: '';
+    position: absolute;
+    width: 20%;
+    height: 4px;
+    left: 0;
+    bottom: -10px;
+    background-color: rgb(10, 167, 10);
+}
+.topic-button a{
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 12px 30px 17px 30px;
+    background-color: rgb(33, 37, 37);
+    color: rgb(15, 116, 65);
+}
+.topic-button a:hover{
+    color: rgb(15, 116, 65);
+}
+.topic-button{
+    padding-top: 30px;
+}
+/* topic section here */
+
+/* our section style here  */
+.our-haed{
+    position: relative;
+}
+.our-haed::after{
+    content: '';
+    position: absolute;
+    width: 4%;
+    height: 3px;
+    bottom: -15px;
+    left: 0;
+    background-color: #161b22;
+}
+
+.our-section p{
+    padding: 40px 30% 30px 0px;
+}
+.our-haed h2{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 400;
+}
+.our-haed h4{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.our-section{
+    padding: 60px 90px 70px 90px;
+}
+.card-head{
+    background-color: #222933;
+}
+.card-head1{
+    background-color: rgb(7, 161, 128);
+}
+
+
+.card-head h3{
+    color: rgb(241, 241, 241);
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.card-head1 h3{
+    color: #222933;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+
+.card-head h2 {
+    font-size: 70px;
+    color: #f3f3f3;
+}
+.card-head1 h2 {
+    font-size: 70px;
+    color: #f3f3f3;
+}
+
+
+.card-head h2 sub{
+    font-size: 16px;
+}
+.card-head1 h2 sub{
+    font-size: 16px;
+}
+
+
+.our-button{
+    padding: 20px 0px;
+}
+.our-button1{
+    padding: 20px 0px;
+}
+
+.our-button1 a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: 300;
+    padding: 5px 14px 10px 14px;
+    background-color: #060b16;
+    color: rgb(7, 161, 128);
+}
+.our-button a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: 300;
+    padding: 5px 14px 10px 14px;
+    background-color: rgb(7, 161, 128);
+    color: #060b16;
+
+}
+
+.our-button a:hover{
+    color: #060b16;
+}
+.our-button1 a:hover{
+    color: rgb(7, 161, 128);
+}
+
+.card-body{
+    background-color: #eceaea;
+}
+
+.card-body h5{
+    text-transform: uppercase;
+    font-size: 17px;
+    line-height: 30px;
+    color: #646464;
+}
+/* our sextion style here  */
+
+/* simple blog section here  */
+.simple-blog{
+    padding: 70px 90px 60px 90px;
+    background-image: url('../image/image-1 (1).jpg');
+}
+
+.july{
+    margin-top: 15px;
+}
+.july a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px 15px;
+    font-size: 20px;
+    color: rgb(0, 128, 43);
+    background-color: rgb(39, 39, 46);
+}
+.july a:hover{
+    color: rgb(0, 128, 43);
+}
+.simple-hp h2{
+    text-transform: uppercase;
+    font-size: 25px;
+    color: rgb(2, 124, 57);
+}
+.prag p{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #ffffff;
+}
+.corpurate{
+    border-right-style: solid ;
+    border-right-width: 2px;
+    border-right-color: #ffffff;
+    margin-right: -15px;
+}
+/* simple blog section here  */
+
+/* sed in section here */
+.sed-in{
+    padding: 70px 90px 60px 90px ;
+    background-image: url('../image/post-2.jpg');
+}
+.corpurate1{
+    border-right-style: solid ;
+    border-right-width: 2px;
+    border-right-color: #ffffff;
+    text-align: center;
+    margin-right: 6px;
+}
+/* sed in section here */
+
+/* morbi section here */
+.morbi{
+    padding: 70px 90px 60px 90px;
+    background-image: url('../image/image-7.jpg');
+    background-position: top center;
+}
+/* morbi section here */
+
+/* vestibulum section here */
+.vestibulum{
+    padding: 70px 90px 60px 90px ;
+    background-image: url('../image/image-9.jpg');
+}
+/* vestibulum section here */
+
+/* contact icon section here */
+.main-icon{
+    padding: 100px 90px 90px 90px;
+    background-color: #f3f1f1;
+}
+.icon-control i{
+    font-size: 40px;
+    font-weight: 100;
+}
+.icon-control h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 50px;
+}
+.icon-control p{
+    font-size: 14px;
+}
+/* contact icon section here */
+
+
+/* footer style here */
+.footer{
+    background-color: rgb(46, 45, 45);
+}
+.footer img{
+    padding: 50px 0px;
+}
+.icon-png{
+    margin: 0px 20%;
+    padding: 10px 0px 60px 0px ;
+    border-bottom: dotted 2px #3a3737 ;
+}
+.icon-png i{
+    padding: 10px;
+    margin: 6px;
+    background-color: rgb(39, 43, 61);
+    color: rgb(8, 182, 124);
+    transition: 0.7s all ease-in-out;
+}
+.icon-png i:hover{
+    color: rgb(39, 43, 61);
+    background-color: rgb(8, 182, 124);
+}
+.last-part{
+    padding: 20px 0px 60px 0px ;
+}
+.last-part h5{
+    text-transform: capitalize;
+    font-size: 14px;
+    color: #646464;
+}
+.last-part h5 a{
+    text-decoration: none;
+    color: rgb(45, 175, 132);
+}
+/* footer style here */
+
